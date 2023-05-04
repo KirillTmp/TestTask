@@ -1,0 +1,82 @@
+:root{
+    --color1: #6F6F64;
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url(/fonts/Inter/InterThin.ttf);
+    font-family: "Azeret Mono";
+    src: url(/fonts/AzeretMono/AzeretMono-VariableFont_wght.ttf);
+}
+
+body{
+    margin: 0px auto;
+    background: #E9E9E3;
+    margin: 120px 56px 120px 56px;
+}
+
+.container{
+    margin: 0px auto;
+    height: 1277px;
+    width: 1440px;
+    padding: 0;
+}
+
+.container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    max-width: 1440px;
+}
+
+.menu{
+    font-family: "Azeret Mono";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    text-align: left;
+    height: 22px;
+    width: 49px;
+    color: var(--color1);
+}
+
+.text{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    height: 135px;
+    width: 558px;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 45px;
+    text-align: left;
+    color: var(--color1);
+    margin-bottom: 74px;
+}
+
+img{
+    height: 1037px;
+}
+
+button{
+    height: 58px;
+    width: 531px;
+    margin-top: 12px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.btn-default{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    background-color: transparent;
+    color: var(--color1);
+    border: 2px solid rgb(111, 111, 100);
+    transition-duration: 0.4s;
+}
+    
+.btn-default:hover{
+    background-color: var(--color1);
+    color: #FFFFFF;
+    border: 2px solid rgb(111, 111, 100);
+}
+
